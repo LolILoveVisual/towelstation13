@@ -46,6 +46,7 @@ GLOBAL_LIST_INIT(ruins_ambience,list(
 	'sound/ambience/ambiruin6.ogg',
 	'sound/ambience/ambiruin7.ogg',
 	'sound/ambience/ambitech3.ogg',
+	'modular_solaris/sound/introspectre.ogg'
 ))
 
 GLOBAL_LIST_INIT(engi_ambience,list(

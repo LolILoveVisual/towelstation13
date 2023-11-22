@@ -18,17 +18,17 @@
 		var/nutrition_ratio = 0
 		switch(nutrition)
 			if(0 to NUTRITION_LEVEL_STARVING)
-				nutrition_ratio = 0.2
-			if(NUTRITION_LEVEL_STARVING to NUTRITION_LEVEL_HUNGRY)
 				nutrition_ratio = 0.4
-			if(NUTRITION_LEVEL_HUNGRY to NUTRITION_LEVEL_FED)
+			if(NUTRITION_LEVEL_STARVING to NUTRITION_LEVEL_HUNGRY)
 				nutrition_ratio = 0.6
-			if(NUTRITION_LEVEL_FED to NUTRITION_LEVEL_WELL_FED)
+			if(NUTRITION_LEVEL_HUNGRY to NUTRITION_LEVEL_FED)
 				nutrition_ratio = 0.8
+			if(NUTRITION_LEVEL_FED to NUTRITION_LEVEL_WELL_FED)
+				nutrition_ratio = 0.9
 			else
 				nutrition_ratio = 1
 		if(satiety > 80)
-			nutrition_ratio *= 1.25
+			nutrition_ratio *= 1.50
 		adjust_nutrition(-nutrition_ratio * HUNGER_FACTOR * seconds_per_tick)
 		blood_volume = min(blood_volume + (BLOOD_REGEN_FACTOR * nutrition_ratio * seconds_per_tick), BLOOD_VOLUME_NORMAL)
 
