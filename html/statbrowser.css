@@ -5,6 +5,7 @@ body {
 	padding: 0 !important;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	cursor: url('pointer.cur'), auto;
 }
 
 body.dark {
