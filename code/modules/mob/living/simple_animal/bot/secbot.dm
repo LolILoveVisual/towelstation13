@@ -22,12 +22,12 @@
 	possessed_message = "You are a securitron! Guard the station to the best of your ability!"
 
 	automated_announcements = list(
-		BEEPSKY_VOICED_CRIMINAL_DETECTED = 'sound/voice/beepsky/criminal.ogg',
-		BEEPSKY_VOICED_FREEZE = 'sound/voice/beepsky/freeze.ogg',
-		BEEPSKY_VOICED_JUSTICE = 'sound/voice/beepsky/justice.ogg',
-		BEEPSKY_VOICED_YOUR_MOVE = 'sound/voice/beepsky/creep.ogg',
-		BEEPSKY_VOICED_I_AM_THE_LAW = 'sound/voice/beepsky/iamthelaw.ogg',
-		BEEPSKY_VOICED_SECURE_DAY = 'sound/voice/beepsky/secureday.ogg',
+		BEEPSKY_VOICED_CRIMINAL_DETECTED = 'modular_solaris/sound/gta/ILLCATCHUUPASSHOLE.ogg',
+		BEEPSKY_VOICED_FREEZE = 'modular_solaris/sound/gta/FDPILLKILLU.ogg',
+		BEEPSKY_VOICED_JUSTICE = 'modular_solaris/sound/gta/FACEOFFMADAFUCKER.ogg',
+		BEEPSKY_VOICED_YOUR_MOVE = 'modular_solaris/sound/gta/IAMFUCKINGCHARGEDRN.ogg',
+		BEEPSKY_VOICED_I_AM_THE_LAW = 'modular_solaris/sound/gta/CARALHOATEASSHOLE.ogg',
+		BEEPSKY_VOICED_SECURE_DAY = 'modular_solaris/sound/gta/IMGONNATOFUCKUUP.ogg',
 	)
 
 	///The type of baton this Secbot will use
@@ -313,7 +313,7 @@
 	if(!current_target.handcuffed)
 		current_target.set_handcuffed(new cuff_type(current_target))
 		current_target.update_handcuffed()
-		playsound(src, SFX_LAW, 50, FALSE)
+		playsound(src, SFX_GTARREST, 50, FALSE)
 		back_to_idle()
 
 /mob/living/simple_animal/bot/secbot/proc/stun_attack(mob/living/carbon/current_target, harm = FALSE)

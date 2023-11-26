@@ -373,6 +373,24 @@
 					'sound/machines/sm/accent/normal/32.ogg',
 					'sound/machines/sm/accent/normal/33.ogg',
 				))
+			if(SFX_GTARREST)
+				soundin = pick(list(
+				'modular_solaris/sound/gta/CARALHO.ogg',
+				'modular_solaris/sound/gta/CARALHOATEASSHOLE.ogg',
+				'modular_solaris/sound/gta/CARALHOPRRPQP.ogg',
+				'modular_solaris/sound/gta/DASFUCKEDUPMAN.ogg',
+				'modular_solaris/sound/gta/QPORRAEHESSA.ogg',
+				'modular_solaris/sound/gta/TAMALUCOTAMALUCO.ogg',
+				'modular_solaris/sound/gta/THISISTHEBESTPARTOFMYDAE.ogg',
+				'modular_solaris/sound/gta/UCANTPLAYMALANDROASSHOLE.ogg',
+				'modular_solaris/sound/gta/VAIPRACASADOCARALHO.ogg',
+				'modular_solaris/sound/gta/VAIVAI.ogg',
+				'modular_solaris/sound/gta/VAMOVAMOMOVE.ogg',
+				'modular_solaris/sound/gta/VATOMARNOTEUCUPORRA.ogg',
+				'modular_solaris/sound/gta/YOUPICKEDTHEWRONGMALANDROTOFUCKWITH.ogg',
+				'modular_solaris/sound/gta/NAOENCHEMEUSACONAOASSHOLE.ogg',
+				'modular_solaris/sound/gta/NOBODYFUCKSWITHMYH.ogg'
+				))
 			if(SFX_HYPERTORUS_MELTING)
 				soundin = pick(list(
 					'sound/machines/sm/accent/delam/1.ogg',

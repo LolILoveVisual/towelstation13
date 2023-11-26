@@ -7780,6 +7780,8 @@
 #include "modular_skyrat\modules\xenos_skyrat_redo\code\xeno_types\sentinel.dm"
 #include "modular_skyrat\modules\xenos_skyrat_redo\code\xeno_types\spitter.dm"
 #include "modular_skyrat\modules\xenos_skyrat_redo\code\xeno_types\warrior.dm"
+#include "modular_solaris\code\carbon_say.dm"
+#include "modular_solaris\modules\dungeon_highrock\code\weather_report.dm"
 #include "modular_solaris\modules\inimigos\inimigos.dm"
 #include "modular_towelstation\master_files\code\__HELPERS\icons.dm"
 #include "modular_towelstation\master_files\code\__HELPERS\matrices.dm"
