@@ -4,7 +4,7 @@
 	gender = NEUTER
 	icon = 'icons/mob/simple/simple_human.dmi'
 	mob_biotypes = MOB_UNDEAD|MOB_HUMANOID
-	speak_emote = list("rattles")
+	speak_emote = list("HAHAHAHAH!")
 	maxHealth = 40
 	health = 40
 	basic_mob_flags = DEL_ON_DEATH

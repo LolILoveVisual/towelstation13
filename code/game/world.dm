@@ -115,7 +115,6 @@ GLOBAL_VAR(restart_counter)
  */
 /world/New()
 	log_world("World loaded at [time_stamp()]!")
-
 	// From a really fucking old commit (91d7150)
 	// I wanted to move it but I think this needs to be after /world/New is called but before any sleeps?
 	// - Dominion/Cyberboss
